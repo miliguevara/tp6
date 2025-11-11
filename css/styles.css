@@ -1,0 +1,12 @@
+:root{--accent:#0b6eba;--bg:#f7fbff;--muted:#6b7280}
+*{box-sizing:border-box}body{font-family:Inter,Arial, sans-serif;background:var(--bg);color:#1f2937;margin:0}
+.m-header{background:linear-gradient(90deg,var(--accent),#2ea4e6);color:white;padding:1rem}
+.m-header h1{margin:0;font-size:1.25rem}
+.author{opacity:0.9}
+.m-main{max-width:900px;margin:1rem auto;padding:0 1rem}
+table{width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:hidden}
+th,td{padding:0.6rem 0.8rem;border-bottom:1px solid #e6edf3;text-align:left}
+thead th{background:#074f7a;color:white}
+tbody tr:nth-child(even){background:#f4fbff}
+.note{color:var(--muted);font-size:0.9rem;margin-top:0.5rem}
+.m-footer{text-align:center;padding:0.8rem;color:var(--muted);font-size:0.9rem}
